@@ -1,0 +1,143 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+	background-color:darkgray;
+}
+
+#my_game {
+	margin:10px;	
+	background-color:white;
+	border: 1px solid black;
+	width: 100%;
+	background: #cebe29;
+	background: -moz-linear-gradient(-45deg, #cebe29 0%, #9b1f50 33%, #2989d8 71%, #89b4ff 91%);
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#cebe29), color-stop(33%,#9b1f50), color-stop(71%,#2989d8), color-stop(91%,#89b4ff));
+	background: -webkit-linear-gradient(-45deg, #cebe29 0%,#9b1f50 33%,#2989d8 71%,#89b4ff 91%);
+	background: -o-linear-gradient(-45deg, #cebe29 0%,#9b1f50 33%,#2989d8 71%,#89b4ff 91%);
+	background: -ms-linear-gradient(-45deg, #cebe29 0%,#9b1f50 33%,#2989d8 71%,#89b4ff 91%);
+	background: linear-gradient(135deg, #cebe29 0%,#9b1f50 33%,#2989d8 71%,#89b4ff 91%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cebe29', endColorstr='#89b4ff',GradientType=1 );
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#score_coins {
+	padding: 10px;
+	padding-top: 20px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    width:120px;
+	height:30px;
+	font-family: Arial;
+	
+    opacity: 0.7;
+}
+#right{
+	width: 470px;
+	height: 127px;
+	position: fixed;
+	bottom: 140px;
+	right: 10px;
+    
+}
+#rightimg{
+   float: right;
+    opacity: 0.7;
+}
+#leftimg{
+    float: left;
+    opacity: 0.7;
+}
+#left{
+	width: 470px;
+	height: 127px;
+	position: fixed;
+	bottom: 140px;
+	left: 10px;
+   
+}
+#up img{
+    float: right;
+}
+#up{
+	width: 250px;
+	height: 125px;
+	position: fixed;
+	bottom: 10px;
+	right: 60px;
+}
+#pause{
+    width: 1017px;
+    height: 740px; 
+    display: none;
+    background-color: darkgray;
+    opacity: 0.6;
+    color: white;
+    top: 4px;
+    left: 4px;
+}
+#pauseBtn{
+    width: 50px;
+    height:50px;
+    float: left;
+    position: fixed;
+    right: 10px;
+    top:10px;
+    opacity: 0.8;
+    
+}
+#pauseBtn img{
+    width: 50px;
+    height: 50px;
+}
+.pause-form{
+    width: 300px;
+    height: 182px;
+    margin: 190px auto;
+    border: 5px solid black;
+}
+#resume{
+    width: 300px;
+    height: 90px;
+    float:left;
+ 
+}
+#option{
+    width: 300px;
+    height: 90px;
+    float: left;
+    
+}
+.option-form{
+	width: 200px;
+	height: 200px;
+	border: 4px solid black;
+	margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

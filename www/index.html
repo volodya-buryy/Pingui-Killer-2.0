@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My game</title>
+		
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css">
+			
+	</head>
+	
+	<body>
+        <div id="score_coins"></div>
+        <canvas id="my_game"> </canvas>
+        
+        <div id="pause" >
+            <form class="pause-form">
+                <button id="resume" onclick="resumeBtn()">RESUME</button>
+                <button id="option"><a href="option.html">OPTIONS</a></button>
+                
+            </form>
+        </div>
+        
+        <div id="pauseBtn" onclick="pause()"><img src="img/pause.png"></div>
+		
+			<form>
+                <div id="right"><img src="img/right.png" id="rightimg"></div>
+				<div id="left"><img src="img/left.png" id="leftimg"></div>
+				<div id="up"><img src="img/top.png"></div>
+			</form>
+	</body>
+	
+	<script src="js/uni.js" > </script>
+	<script src="js/levels.js"> </script>
+	<script>
+		setInterval(draw,1)			
+	</script>
+
+</html>
